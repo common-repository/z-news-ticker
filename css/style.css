@@ -1,0 +1,18 @@
+.ticker {}
+.ticker strong{
+    background-color: #985BEA;
+    color: #fff;
+    padding: 0 10px;
+    font-size: 18px;
+}
+ /* The HTML list gets replaced with a single div,
+    which contains the active ticker item, so you
+    can easily style that as well */
+.ticker div {
+	color: #57C9FF;
+	display: block !important;
+	font-size: 18px;
+	letter-spacing: 1px;
+    margin-left:50px;	
+	word-wrap: break-word;
+}
